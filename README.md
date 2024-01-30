@@ -1,2 +1,2 @@
-# furniro
+# LuxeLooms
  furniture store
