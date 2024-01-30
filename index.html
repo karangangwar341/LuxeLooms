@@ -21,27 +21,27 @@
   <body>
     
   	<div class="relative bg-white w-full h-[100px]">
-  	<nav id="navbar">
-
-        <div class="relative w-full h-[41px] text-left text-base text-black font-poppins">
-            <div class="absolute h-[58.54%] w-[33.44%] top-[21.95%] right-[31.49%] bottom-[19.51%] left-[35.07%]">
-            <div class="absolute top-[0%] left-[0%] font-medium">Home</div>
-            <div class="absolute top-[0%] left-[28.6%] font-medium">Shop</div>
-            <div class="absolute top-[0%] left-[55.81%] font-medium">About</div>
-            <div class="absolute top-[0%] left-[84.65%] font-medium">Contact</div>
+        <nav id="navbar" class="flex flex-row justify-between">
+            <div class="flex flex-row p-2 ">
+                <img class="relative w-[50px] h-8 object-cover" alt="" src="public/Meubel House_Logos-05.png">
+                <h1>
+                    <b class=" text-2xl">LuxeLooms</b>
+                </h1>
             </div>
-            <div class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] cursor-pointer text-[34px] font-montserrat" id="groupContainer1">
-            <img class="absolute h-[68.29%] w-[2.18%] top-[17.07%] right-[17.03%] bottom-[14.63%] left-[80.79%] max-w-full overflow-hidden max-h-full" alt="" src="public/mdi_account-alert-outline.svg">
-            <img class="absolute h-[68.29%] w-[2.18%] top-[17.07%] right-[11.35%] bottom-[14.63%] left-[86.47%] max-w-full overflow-hidden max-h-full" alt="" src="public/akar-icons_search.svg">
-            <img class="absolute h-[68.29%] w-[2.18%] top-[17.07%] right-[5.68%] bottom-[14.63%] left-[92.15%] max-w-full overflow-hidden max-h-full" alt="" src="public/akar-icons_heart.svg">
-            <img class="absolute h-[68.29%] w-[2.18%] top-[17.07%] right-[0%] bottom-[14.63%] left-[97.82%] max-w-full overflow-hidden max-h-full" alt="" src="public/ant-design_shopping-cart-outlined.svg">
-            <div class="absolute h-full w-[14.39%] top-[0%] right-[85.61%] bottom-[0%] left-[0%] flex flex-row items-center justify-center gap-[5px]">
-            <img class="relative w-[50px] h-8 object-cover" alt="" src="public/Meubel House_Logos-05.png">
-            <b class="relative">Furniro</b>
+            <div class="flex flex-row p-2 font-semibold ">
+                <button class="home-button p-2 px-5 ml-3 text-lg hover:shadow-md rounded-lg focus:scale-90 focus:shadow-xl">Home</button>
+                <button class="about-button p-2 px-5 ml-3 text-lg hover:shadow-md rounded-lg focus:scale-90 focus:shadow-xl">About</button>
+                <button class="contact-button p-2 px-5 ml-3 text-lg hover:shadow-md rounded-lg focus:scale-90 focus:shadow-xl">Contact</button>
             </div>
+            <div class="flex flex-row p-2 ">
+                    <button class="profile-button"><img class="px-3 w-12 hover:shadow-md rounded-lg focus:scale-90 focus:shadow-xl" alt="" src="public/mdi_account-alert-outline.svg"></button>
+                    <button class="search-button"><img class="px-3 w-12 hover:shadow-md rounded-lg focus:scale-90 focus:shadow-xl" alt="" src="public/akar-icons_search.svg"></button>
+                    <button class="favourite-button"><img class="px-3 w-12 hover:shadow-md rounded-lg focus:scale-90 focus:shadow-xl" alt="" src="public/akar-icons_heart.svg"></button>
+                    <button class="cart-button"><img class="px-3 w-12 hover:shadow-md rounded-lg focus:scale-90 focus:shadow-xl cart-button " alt="" src="public/ant-design_shopping-cart-outlined.svg">
+                    </button>
             </div>
-            </div>
-    </nav>
+        </nav>
+        
     <div id="showcase" class="relative bg-cover bg-center h-96" style="background-image: url('public/scandinavian-interior-mockup-wall-decal-background\ 1.png');">
         <div id="buy1" class="absolute bg-orange-200 h-4/6 w-96 bottom-0 right-0 mr-6 rounded-md">
             
@@ -57,169 +57,22 @@
     <h1 class="text-4xl text-center font-bold pt-20 pb-6 text-gray-700">Browse our range</h1>
     <div id="range" class="relative flex flex-row m-12 px-1/5">
         <div class="flex-1 w-1/3 text-center flex flex-col items-center justify-center">
-            <img class="rounded-md w-3/4" src="public/image 100.png" alt="">
+            <img class="rounded-md w-3/4 shadow-xl " src="public/image 100.png" alt="">
             <button class="text-center font-semibold text-2xl py-3">Living</button>
         </div>
         <div class="flex-1 w-1/3 text-center flex flex-col items-center justify-center">
-            <img class="rounded-md w-3/4" src="public/image 101.png" alt="">
+            <img class="rounded-md w-3/4 shadow-xl " src="public/image 101.png" alt="">
             <button class="text-center font-semibold text-2xl py-3">Dining</button>
         </div>
         <div class="flex-1 w-1/3 text-center flex flex-col items-center justify-center">
-            <img class="rounded-md w-3/4" src="public/image 106.png" alt="">
+            <img class="rounded-md w-3/4 shadow-xl " src="public/image 106.png" alt="">
             <button class="text-center font-semibold text-2xl py-3">Bedroom</button>
         </div>
     </div>
     <h1 class="text-4xl text-center font-bold pt-20 pb-6 text-gray-700">Our Products</h1>
     
     <div id="products"class="flex flex-wrap justify-center">
-        
-        <div class="flex flex-wrap justify-center w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 m-3">
-            
-            <div class="">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <img class="w-full h-auto rounded-md mb-4" src="public/image 1.png" alt="Product Image">
-                    <div class="text-center">
-                        <h2 class="text-lg font-semibold mb-2">Product Name 1</h2>
-                        <p>Production description in few words</p>
-                        <p class="text-gray-600"> Price $19.99</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
-                
-            </div>
-        </div>
-        <div class="flex flex-wrap justify-center w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 m-3">
-            
-            <div class="">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <img class="w-full h-auto rounded-md mb-4" src="public/image 1.png" alt="Product Image">
-                    <div class="text-center">
-                        <h2 class="text-lg font-semibold mb-2">Product Name 1</h2>
-                        <p>Production description in few words</p>
-                        <p class="text-gray-600"> Price $19.99</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
-                
-            </div>
-        </div>
-        
-        <div class="flex flex-wrap justify-center w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 m-3">
-            
-            <div class="">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <img class="w-full h-auto rounded-md mb-4" src="public/image 1.png" alt="Product Image">
-                    <div class="text-center">
-                        <h2 class="text-lg font-semibold mb-2">Product Name 1</h2>
-                        <p>Production description in few words</p>
-                        <p class="text-gray-600"> Price $19.99</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
-                
-            </div>
-        </div>
-        
-        <div class="flex flex-wrap justify-center w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 m-3">
-            
-            <div class="">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <img class="w-full h-auto rounded-md mb-4" src="public/image 1.png" alt="Product Image">
-                    <div class="text-center">
-                        <h2 class="text-lg font-semibold mb-2">Product Name 1</h2>
-                        <p>Production description in few words</p>
-                        <p class="text-gray-600"> Price $19.99</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
-                
-            </div>
-        </div>
-        <div class="flex flex-wrap justify-center w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 m-3">
-            
-            <div class="">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <img class="w-full h-auto rounded-md mb-4" src="public/image 1.png" alt="Product Image">
-                    <div class="text-center">
-                        <h2 class="text-lg font-semibold mb-2">Product Name 1</h2>
-                        <p>Production description in few words</p>
-                        <p class="text-gray-600"> Price $19.99</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
-                
-            </div>
-        </div>
-        <div class="flex flex-wrap justify-center w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 m-3">
-            
-            <div class="">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <img class="w-full h-auto rounded-md mb-4" src="public/image 1.png" alt="Product Image">
-                    <div class="text-center">
-                        <h2 class="text-lg font-semibold mb-2">Product Name 1</h2>
-                        <p>Production description in few words</p>
-                        <p class="text-gray-600"> Price $19.99</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
-                
-            </div>
-        </div>
-        <div class="flex flex-wrap justify-center w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 m-3">
-            
-            <div class="">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <img class="w-full h-auto rounded-md mb-4" src="public/image 1.png" alt="Product Image">
-                    <div class="text-center">
-                        <h2 class="text-lg font-semibold mb-2">Product Name 1</h2>
-                        <p>Production description in few words</p>
-                        <p class="text-gray-600"> Price $19.99</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
-                
-            </div>
-        </div>
-    
-        <div class="flex flex-wrap justify-center w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 m-3">
-            
-            <div class="">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <img class="w-full h-auto rounded-md mb-4" src="public/image 1.png" alt="Product Image">
-                    <div class="text-center">
-                        <h2 class="text-lg font-semibold mb-2">Product Name 1</h2>
-                        <p>Production description in few words</p>
-                        <p class="text-gray-600"> Price $19.99</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
-                
-            </div>
-        </div>
-        <div class="flex flex-wrap justify-center w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 m-3">
-            
-            <div class="">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <img class="w-full h-auto rounded-md mb-4" src="public/image 1.png" alt="Product Image">
-                    <div class="text-center">
-                        <h2 class="text-lg font-semibold mb-2">Product Name 1</h2>
-                        <p>Production description in few words</p>
-                        <p class="text-gray-600"> Price $19.99</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
-                
-            </div>
-        </div>
+        <!-- products-->
     </div>
 
     <div class="flex justify-center mt-5">
@@ -240,8 +93,6 @@
                 <img class="shadow-md rounded-lg" src="public/Rectangle 24.png" alt="Room Inspiration">
                 <img class="shadow-md rounded-lg" src="public/Rectangle 25.png" alt="Next Room Inspiration">
                 <img class="shadow-md rounded-lg" src="public/Rectangle 24.png" alt="Next Room Inspiration">
-                
-                <!-- Add more images as needed -->
             </div>
         </div>
     </div>
@@ -257,17 +108,17 @@
         </p>
         <p class="m-0">Lucknow, India</p>
         </div>
-        <b class="absolute top-[0%] left-[0%] text-[24px]">Funiro.</b>
+        <b class="absolute top-[0%] left-[0%] text-[24px]">LuxeLooms</b>
         <div class="absolute h-full w-[62.67%] top-[0%] right-[0%] bottom-[0%] left-[37.33%]">
         <div class="absolute h-full w-[49.58%] top-[0%] right-[50.42%] bottom-[0%] left-[0%]">
         <div class="absolute h-full w-[19.32%] top-[0%] right-[80.68%] bottom-[0%] left-[0%]">
         <div class="absolute h-[74.68%] w-[97.06%] top-[25.32%] right-[0%] bottom-[0%] left-[2.94%]">
-        <div class="absolute top-[0%] left-[0%] font-medium">Home</div>
-        <div class="absolute top-[30.04%] left-[0%] font-medium">Shop</div>
-        <div class="absolute top-[60.09%] left-[0%] font-medium">About</div>
-        <div class="absolute top-[89.7%] left-[0%] font-medium">Contact</div>
+        <div class="home-button absolute top-[0%] left-[0%] font-medium">Home</div>
+        <div class="shop-button absolute top-[30.04%] left-[0%] font-medium">Shop</div>
+        <div class="about-button absolute top-[60.09%] left-[0%] font-medium">About</div>
+        <div class="contact-button absolute top-[89.7%] left-[0%] font-medium">Contact</div>
         </div>
-        <div class="absolute top-[0%] left-[0%] font-medium text-darkgray">Links</div>
+        <div class="absolute top-[0%] left-[0%] font-bold text-darkgray">Links</div>
         </div>
         <div class="absolute h-[77.56%] w-[39.77%] top-[0%] right-[0%] bottom-[22.44%] left-[85.23%] text-darkgray">
         <div class="absolute top-[0%] left-[0%] font-medium"><b>Help</b></div>
@@ -291,18 +142,13 @@
         <div class="absolute h-[14.08%] w-full top-[85.92%] right-[0%] bottom-[0%] left-[0%]">
         <div class="absolute h-[1.69%] w-[100.08%] top-[-0.85%] right-[-0.04%] bottom-[99.15%] left-[-0.04%] box-border border-t-[1px] border-solid border-gainsboro">
         </div>
-        <div class="absolute top-[59.32%] left-[0.16%]">2023 furino. All rights reverved</div>
+        <div class="absolute top-[59.32%] left-[0.16%]">2024 LuxeLooms. All rights reverved</div>
         </div>
         </div>
         </div>
     </footer>
     </div>
-    
-    
-    
-      
-    
-    </div>
-
+    <script type="module" src="index.js"></script>
+    <script type="module" src="cart.js"></script>
  </body>
 </html>
